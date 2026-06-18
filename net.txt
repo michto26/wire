@@ -1,0 +1,30 @@
+ifconfig
+ip address showping -c 4 google.com
+netstat
+traceroute google.com
+nslookup google.com
+dig google.com
+route -n
+arp
+hostname
+sudo hostname michto
+whois google.com
+curl google.com
+wget http://google.co
+ip addr show
+sudo ip addr add 192.168.1.100 dev enp0s3
+sudo ip addr del 192.168.1.100 dev enp0s3
+ip link show
+sudo ip link set dev enp0s3 up
+ip route show default
+sudo ip route add default via 10.0.2.2
+ip neigh show
+sudo ip neigh add 192.168.1.1 lladdr aa:bb:cc:dd:ee:ff dev enp0s3
+ip rule show
+ip rule add from 192.168.1.0/24 table 100
+nmcli device status
+nmcli connection show
+sudo ethtool enp0s3
+ss -tuln
+ss -t
+sudo tcpdump -i enp0s3
