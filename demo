@@ -1,0 +1,25 @@
+What is the IP address of the DNS/HTTP client in this trace file?
+  What is the IP address of the DNS server?
+  What is the IP address of the DNS server?
+  dns
+
+What are the IP addresses of the HTTP servers to which the client successfully connected?
+  http.response
+
+  What are the HTTP host names of the target HTTP servers?
+  http.request
+
+  How many TCP SYN packets did the client send to the HTTP servers? Display Flow Graph limited to display filter.
+  tcp.flags.syn==1 and tcp.flags.ack==0
+
+
+  What is total number of http packets in this trace file? Show its flow graph.
+  http
+
+  Display packets whose source ip address is 98.136.187.13
+  ip.src==98.136.187.13
+
+  Display http packets received from 192.168.1.72
+  ip.src==192.168.1.72 and http
+
+  
